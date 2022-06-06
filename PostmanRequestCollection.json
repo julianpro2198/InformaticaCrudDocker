@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "47d4a277-d08e-41f4-a285-9b709abee19f",
+		"name": "Informatica CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Clientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.18.0.3:5000/client-all",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"3"
+					],
+					"port": "5000",
+					"path": [
+						"client-all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 112421,\n  \"nnombre\": \"arroz\",\n  \"nprecio\": 1000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.18.0.3:5000/client-edit",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"3"
+					],
+					"port": "5000",
+					"path": [
+						"client-edit"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"112421\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.18.0.3:5000/client-delete",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"3"
+					],
+					"port": "5000",
+					"path": [
+						"client-delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Client Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"112431\",\n  \"nnombre\": \"juan\",\n  \"napeliido\": \"chivo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.18.0.3:5000/client-create",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"3"
+					],
+					"port": "5000",
+					"path": [
+						"client-create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 112421,\n  \"nnombre\": \"jabon\",\n  \"valor\": 3500\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.18.0.2:5000/product-create",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"2"
+					],
+					"port": "5000",
+					"path": [
+						"product-create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.18.0.2:5000/product-all",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"2"
+					],
+					"port": "5000",
+					"path": [
+						"product-all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"112421\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.18.0.2:5000/product-delete",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"2"
+					],
+					"port": "5000",
+					"path": [
+						"product-delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 112421,\n  \"nnombre\": \"arroz\",\n  \"nprecio\": 1000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.18.0.2:5000/product-edit",
+					"protocol": "http",
+					"host": [
+						"172",
+						"18",
+						"0",
+						"2"
+					],
+					"port": "5000",
+					"path": [
+						"product-edit"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
