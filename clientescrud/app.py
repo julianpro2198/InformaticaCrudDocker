@@ -29,7 +29,7 @@ def client_edit():
     data = request.get_json()
     userid = data['id']
     nnombre = data['nnombre']
-    napellido = data['napeliido']
+    napellido = data['napellido']
 
     con=sql.connect("infdb.db")
     cur=con.cursor()

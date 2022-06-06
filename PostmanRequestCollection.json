@@ -34,7 +34,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"id\": 112421,\n  \"nnombre\": \"arroz\",\n  \"nprecio\": 1000\n}",
+					"raw": "{\n  \"id\": \"112435\",\n  \"nnombre\": \"laura\",\n  \"napellido\": \"diaz\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -72,7 +72,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"id\": \"112421\"\n}",
+					"raw": "{\n  \"id\": \"112435\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -103,7 +103,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"id\": \"112431\",\n  \"nnombre\": \"juan\",\n  \"napeliido\": \"chivo\"\n}",
+					"raw": "{\n  \"id\": \"112435\",\n  \"nnombre\": \"pedro\",\n  \"napeliido\": \"gomez\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
